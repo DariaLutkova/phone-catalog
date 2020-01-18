@@ -1,9 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+      <li class="nav-item">
+        <div class="nav-link"> Lutkova188 </div>
+      </li>
+      <li class="nav-item">
+        <router-link to="/" class="nav-link" active-class="active" exact id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link to="/catalog" class="nav-link" active-class="active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Catalog</router-link>
+      </li>
+    </ul>
     <router-view/>
   </div>
 </template>

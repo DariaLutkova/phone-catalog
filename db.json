@@ -1,0 +1,48 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S8",
+      "article": "3808977",
+      "price": 18599,
+      "brand": "Samsung",
+      "year": 2016,
+      "orders": 70,
+      "camera": "12mpx+13mpx",
+      "screen": "2536x1125"
+    },
+    {
+      "id": 2,
+      "title": "Iphone 5",
+      "article": "3808979",
+      "price": 11000,
+      "brand": "Apple",
+      "year": 2015,
+      "orders": 10040,
+      "camera": "8mpx+8mpx",
+      "screen": "2436x1125"
+    },
+    {
+      "id": 3,
+      "title": "Iphone XS",
+      "article": "3808981",
+      "price": 68000,
+      "brand": "Apple",
+      "year": 2020,
+      "orders": 90,
+      "camera": "13mpx+13mpx",
+      "screen": "2436x1125"
+    },
+    {
+      "id": 4,
+      "title": "Xiaomi Redmi Note 7",
+      "article": "3808982",
+      "price": 9000,
+      "brand": "Xiaomi",
+      "year": 2017,
+      "orders": 170,
+      "camera": "9mpx+9mpx",
+      "screen": "2436x1125"
+    }
+  ]
+}
